@@ -15,12 +15,17 @@
   background: none;
 }
 
+.container {
+font-family: 'Overpass', sans-serif;
+font-size: 32px;
+}
+color: #FFD700;
 .container ul li{
     font-family: 'Overpass', sans-serif;
     font-size: 32px;
-    color: #FFD700;
-    font-family: 'Hind Vadodara', sans-serif;
 }
+color: #FFD700;
+font-family: 'Hind Vadodara', sans-serif;
 #social{
   list-style: none;
   padding-top: 20px;
