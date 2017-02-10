@@ -15,9 +15,11 @@
   background: none;
 }
 
-.container{
+.container ul li{
     font-family: 'Overpass', sans-serif;
     font-size: 32px;
+    color: #FFD700;
+    font-family: 'Hind Vadodara', sans-serif;
 }
 #social{
   list-style: none;
@@ -29,11 +31,6 @@
   float: left;
 }
 
-.beast-mode{
-  color: #FFD700;
-  font-family: 'Hind Vadodara', sans-serif;
-  border-bottom: black solid 2px;
-}
 a{
   text-decoration-color: none;
 }
