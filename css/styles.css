@@ -19,3 +19,12 @@
     font-family: 'Overpass', sans-serif;
     font-size: 32px;
 }
+#social{
+  list-style: none;
+  padding-top: 20px;
+}
+.social-logo{
+  padding-top: 20px;
+  width: 30%;
+  float: left;
+}
