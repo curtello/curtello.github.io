@@ -28,3 +28,12 @@
   width: 30%;
   float: left;
 }
+
+.beast-mode{
+  color: #FFD700;
+  font-family: 'Hind Vadodara', sans-serif;
+  border-bottom: black solid 2px;
+}
+a{
+  text-decoration-color: none;
+}
