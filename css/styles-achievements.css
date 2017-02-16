@@ -5,7 +5,6 @@
 .parallax {
     background-image: url("../images/welcome.jpg");
     min-height: 500px;
-
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -17,6 +16,7 @@
   text-align: center;
   color: #32cd32;
   background: none;
+  width: auto;
 }
 .container {
 font-family: 'Overpass', sans-serif;

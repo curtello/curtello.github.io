@@ -8,11 +8,15 @@
     background-size: cover;
 }
 .jumbotron{
+  margin-bottom: inherit;
+}
+#welcome{
   font-family: 'Overpass', sans-serif;
   font-size: 120px;
   text-align: center;
-  color: #32cd32;
+  color: #c0c0c0;
   background: none;
+  width: 100%;
 }
 
 .container {
@@ -36,3 +40,23 @@ font-size: 32px;
 a{
   text-decoration-color: none;
 }
+@media only screen and (min-width : 360px) {
+  #welcome{
+    font-size: 80px;
+  }
+};
+@media only screen and (min-width : 480px) {
+  #welcome{
+    font-size: 120px;
+  }
+};
+@media only screen and (min-width : 768px) {
+  #welcome{
+    font-size: 180px;
+  }
+};
+@media only screen and (min-width : 992px) {
+  #welcome{
+    font-size: 200px;
+  }
+   }
