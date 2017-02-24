@@ -15,13 +15,13 @@ $(document).ready(function () {
     $("div#intro").delay(4000).fadeOut(2000);
     $("div#intro-story").delay(29000).fadeIn(2000);
     $("div#intro-story").fadeOut(2000);
-    $("div#intro-story1").delay(34000).fadeIn(2000);
+    $("div#intro-story1").delay(35000).fadeIn(2000);
     $("div#intro-story1").fadeOut(2000);
-    $("div#intro-story2").delay(39000).fadeIn(2000);
+    $("div#intro-story2").delay(40000).fadeIn(2000);
     $("div#intro-story2").delay(2000).fadeOut(2000);
-    $("div#intro-story3").delay(46000).fadeIn(2000);
+    $("div#intro-story3").delay(47000).fadeIn(2000);
     $("div#intro-story3").fadeOut(2000);
-    $("div#welcome").delay(51000).fadeIn(2000);
+    $("div#welcome").delay(52000).fadeIn(2000);
     // $("div#welcome").fadeOut(2000);
   });
 });
