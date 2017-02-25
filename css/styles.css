@@ -7,16 +7,15 @@
   height: auto;
   padding-top: 20%;
   display: none;
-  color: #FFD700;
+  color: #FFA500;
   font-family: 'Roboto', sans-serif;
 }
 .buttons{
   font-size: 25px;
   padding: 10px 30px 10px 30px;
-  color: white;
   border-style: solid;
-  border-color: #FFD700;
-  color: #FFD700;
+  border-color: #FFA500;
+  color: #FFA500;
   background-color: #000000;
   display: none;
 }
@@ -160,10 +159,77 @@
   background-position: center;
   background-attachment: fixed;
   padding-top: 20%;
-  padding-bottom: 22.5%;
+  padding-bottom: 18%;
   font-size: 60px;
   text-align: center;
   height: auto;
   display: none;
   color: #40E0D0;
+}
+.homepage{
+  background-color: white;
+    color : black;
+    -webkit-animation-name: on;
+    -webkit-animation-duration: 10s;
+    animation-name: on;
+    animation-duration: 10s;
+}
+@-webkit-keyframes on{
+  0%   {background-color: black;}
+   50%  {background-color: #40E0D0;}
+   100% {background-color: white;}
+   0%   {color: #40E0D0;}
+   50%  {color: #40E0D0;}
+   100% {color: black;}
+}
+@keyframes on{
+  0%   {background-color: black;}
+   50%  {background-color: #40E0D0;}
+   100% {background-color: white;}
+   0%   {color: #40E0D0;}
+   50%  {color: #40E0D0;}
+   100% {color: black;}
+}
+#enter{
+  font-size: 25px;
+  padding: 10px 30px 10px 30px;
+  color: #40E0D0;
+  border-style: solid;
+  border-color: black;
+  background-color: #000000;
+  display: none;
+}
+#enter:hover{
+  color: #000000;
+  border-color: black;
+  background-color: #40E0D0;
+}
+#homepage{
+  font-size: 40px;
+  text-align: center;
+  display: none;
+}
+.homepage-skip{
+  background-color: white;
+    color : black;
+    -webkit-animation-name: on-skip;
+    -webkit-animation-duration: 10s;
+    animation-name: on-skip;
+    animation-duration: 10s;
+}
+@-webkit-keyframes on-skip{
+  0%   {background-color: black;}
+   50%  {background-color: #FFA500;}
+   100% {background-color: white;}
+   0%   {color: #FFA500;}
+   50%  {color: #FFA500;}
+   100% {color: black;}
+}
+@keyframes on-skip{
+  0%   {background-color: black;}
+   50%  {background-color: #FFA500;}
+   100% {background-color: white;}
+   0%   {color: #FFA500;}
+   50%  {color: #FFA500;}
+   100% {color: black;}
 }
