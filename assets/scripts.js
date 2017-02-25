@@ -26,16 +26,17 @@ $(document).ready(function () {
     $("button#enter").delay(56000).fadeIn(2000);
   });
   $("button#enter").click(function () {
-    $("div#welcome").delay(3000).fadeOut(2000);
+    $("div#welcome").delay(2000).fadeOut(2000);
     $("body").removeClass();
     $("body").addClass("homepage");
     $("div#homepage").delay(5000).fadeIn(2000);
   });
   $("button#skip").click(function () {
-    $("div#landing").delay(3000).fadeOut(2000);
+    $("div#landing").delay(2000).fadeOut(2000);
     $("button#noSkip").hide();
     $("body").removeClass();
     $("body").addClass("homepage-skip");
     $("div#homepage").delay(5000).fadeIn(2000);
+    $("div#content").delay(8000).slideToggle(8000);
   });
 });

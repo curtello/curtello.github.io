@@ -1,4 +1,4 @@
-*{
+#landing p ,#boring{
   font-family: 'Kaushan Script', cursive;
 }
 #landing{
@@ -7,20 +7,20 @@
   height: auto;
   padding-top: 20%;
   display: none;
-  color: #FFA500;
+  color: 	#CD853F;
   font-family: 'Roboto', sans-serif;
 }
 .buttons{
   font-size: 25px;
   padding: 10px 30px 10px 30px;
   border-style: solid;
-  border-color: #FFA500;
-  color: #FFA500;
+  border-color: #CD853F;
+  color: 	#CD853F;
   background-color: #000000;
   display: none;
 }
 .buttons:hover{
-  background-color: #FFD700;
+  background-color: #CD853F;
   color: #000000;
   border-color: #000000;
 }
@@ -177,7 +177,8 @@
 @-webkit-keyframes on{
   0%   {background-color: black;}
  25%  {background-color: #40E0D0;}
-  75% {background-color: 	#00CED1;}
+ 50%  {background-color: #40E0D0;}
+  75% {background-color: 	#483D8B;}
    100% {background-color: white;}
    0%   {color: #40E0D0;}
    50%  {color: #40E0D0;}
@@ -186,7 +187,8 @@
 @keyframes on{
   0%   {background-color: black;}
  25%  {background-color: #40E0D0;}
-  75% {background-color: 	#00CED1;}
+ 50%  {background-color: #40E0D0;}
+  75% {background-color: 	#483D8B;}
    100% {background-color: white;}
    0%   {color: #40E0D0;}
    50%  {color: #40E0D0;}
@@ -211,7 +213,7 @@
   font-size: 40px;
   text-align: center;
   display: none;
-  background-color: #00CED1;
+  background-color: #483D8B;
   color: #FFFFFF;
   padding-top: 130px;
   padding-bottom: 130px;
@@ -227,19 +229,27 @@
 }
 @-webkit-keyframes on-skip{
   0%   {background-color: black;}
-   25%  {background-color: #FFA500;}
-   75% {background-color: 	#00CED1;}
+   25%  {background-color: 	#CD853F;}
+   75% {background-color: 	#483D8B;}
    100% {background-color: white;}
-   0%   {color: #FFA500;}
-   50%  {color: #FFA500;}
+   0%   {color: #CD853F;}
+   25%  {color:	#CD853F;}
    100% {color: black;}
 }
 @keyframes on-skip{
   0%   {background-color: black;}
-   25%  {background-color: #FFA500;}
-   75% {background-color: 	#00CED1;}
+   25%  {background-color: 	#CD853F;}
+   75% {background-color:	#483D8B;}
    100% {background-color: white;}
-   0%   {color: #FFA500;}
-   50%  {color: #FFA500;}
+   0%   {color: #CD853F;}
+   25%  {color: #CD853F;}
    100% {color: black;}
+}
+#content{
+  color: black;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 30px;
+  font-family: 'Catamaran', sans-serif;
+  display: none;
 }
