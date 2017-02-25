@@ -3,6 +3,7 @@ $(document).ready(function () {
   $("div#landing").show();
   $("button.buttons").show();
   $("button#noSkip").click(function () {
+    $("button#skip").hide();
     $("div#landing").fadeOut(2000);
     $("div#hi").delay(3000).fadeIn(2000);
     $("div#hi").fadeOut(2000);
@@ -32,6 +33,7 @@ $(document).ready(function () {
   });
   $("button#skip").click(function () {
     $("div#landing").delay(3000).fadeOut(2000);
+    $("button#noSkip").hide();
     $("body").removeClass();
     $("body").addClass("homepage-skip");
     $("div#homepage").delay(5000).fadeIn(2000);

@@ -176,7 +176,8 @@
 }
 @-webkit-keyframes on{
   0%   {background-color: black;}
-   50%  {background-color: #40E0D0;}
+ 25%  {background-color: #40E0D0;}
+  75% {background-color: 	#00CED1;}
    100% {background-color: white;}
    0%   {color: #40E0D0;}
    50%  {color: #40E0D0;}
@@ -184,7 +185,8 @@
 }
 @keyframes on{
   0%   {background-color: black;}
-   50%  {background-color: #40E0D0;}
+ 25%  {background-color: #40E0D0;}
+  75% {background-color: 	#00CED1;}
    100% {background-color: white;}
    0%   {color: #40E0D0;}
    50%  {color: #40E0D0;}
@@ -204,10 +206,16 @@
   border-color: black;
   background-color: #40E0D0;
 }
+
 #homepage{
   font-size: 40px;
   text-align: center;
   display: none;
+  background-color: #00CED1;
+  color: #FFFFFF;
+  padding-top: 130px;
+  padding-bottom: 130px;
+  font-family: 'Leckerli One', cursive;
 }
 .homepage-skip{
   background-color: white;
@@ -219,7 +227,8 @@
 }
 @-webkit-keyframes on-skip{
   0%   {background-color: black;}
-   50%  {background-color: #FFA500;}
+   25%  {background-color: #FFA500;}
+   75% {background-color: 	#00CED1;}
    100% {background-color: white;}
    0%   {color: #FFA500;}
    50%  {color: #FFA500;}
@@ -227,7 +236,8 @@
 }
 @keyframes on-skip{
   0%   {background-color: black;}
-   50%  {background-color: #FFA500;}
+   25%  {background-color: #FFA500;}
+   75% {background-color: 	#00CED1;}
    100% {background-color: white;}
    0%   {color: #FFA500;}
    50%  {color: #FFA500;}
