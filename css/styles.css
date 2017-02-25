@@ -140,9 +140,9 @@
   background-color: white;
     color : black;
     -webkit-animation-name: on;
-    -webkit-animation-duration: 10s;
+    -webkit-animation-duration: 8s;
     animation-name: on;
-    animation-duration: 10s;
+    animation-duration: 8s;
 }
 @-webkit-keyframes on{
   0%   {background-color: black;}
@@ -222,6 +222,15 @@
   margin-right: auto;
   font-size: 30px;
   font-family: 'Catamaran', sans-serif;
+  display: none;
+}
+#transition{
+  background-image: url("../images/transition.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100vh;
   display: none;
 }
 /*#About{

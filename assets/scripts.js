@@ -26,7 +26,7 @@ $(document).ready(function () {
     $("button#enter").delay(56000).fadeIn(2000);
   });
   $("button#enter").click(function () {
-    $("div#welcome").delay(2000).fadeOut(2000);
+    $("div#welcome").delay(1000).fadeOut(2000);
     $("body").removeClass();
     $("body").addClass("homepage");
     $("div#homepage").delay(5000).fadeIn(2000);
@@ -38,5 +38,11 @@ $(document).ready(function () {
     $("body").addClass("homepage-skip");
     $("div#homepage").delay(5000).fadeIn(2000);
     // $("div#content").delay(8000).slideDown(15000);
+  });
+  $("button#open").click(function () {
+    $("div#homepage").slideUp(2000);
+    $("div#transition").delay(500).slideDown(2000);
+    $("div#transition").delay(4500).slideUp(2000);
+    $("div#content").delay(8000).slideDown(8000);
   });
 });
