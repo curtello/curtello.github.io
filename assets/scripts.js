@@ -44,7 +44,12 @@ $(document).ready(function () {
     $("div#transition").delay(4500).slideUp(2000);
     $("div#content").delay(8000).slideDown(3000);
     $("div#About").delay(11000).fadeIn(2000);
-    $("div#Projects").delay(14000).fadeIn(2000);
-    $("div#Contacts").delay(17000).fadeIn(2000);
+    $("div#Projects").delay(12000).fadeIn(1000);
+    $("div#Contacts").delay(13000).fadeIn(1000);
+  });
+  $("div#About").click(function () {
+    $("div#About").fadeOut(2000);
+    $("div#Projects").fadeOut(2000);
+    $("div#Contacts").fadeOut(2000);
   });
 });

@@ -238,9 +238,11 @@
   background-size: cover;
   background-position: center;
   text-align: center;
+  vertical-align: middle;
+  line-height: 50vh;
   width: 50%;
   height: 50vh;
-  padding-top: 10%;
+  /*padding-top: 10%;*/
   color: white;
   background-repeat: no-repeat;
   display: none;
@@ -251,9 +253,10 @@
   background-size: cover;
   background-position: center;
   text-align: center;
+  vertical-align: middle;
+  line-height: 50vh;
   width: 50%;
   height: 50vh;
-  padding-top: 10%;
   color: white;
   background-repeat: no-repeat;
   display: none;
@@ -264,9 +267,10 @@
   background-size: cover;
   background-position: center;
   text-align: center;
+  vertical-align: middle;
+  line-height: 50vh;
   width: 50%;
   height: 50vh;
-  padding-top: 10%;
   color: white;
   background-repeat: no-repeat;
   display: none;
