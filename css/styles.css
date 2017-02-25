@@ -1,4 +1,4 @@
-#landing p ,#boring{
+#landing p ,#intro-font{
   font-family: 'Kaushan Script', cursive;
 }
 #landing{
@@ -8,7 +8,7 @@
   padding-top: 20%;
   display: none;
   color: 	#CD853F;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Sansita', sans-serif;
 }
 .buttons{
   font-size: 25px;
@@ -287,4 +287,79 @@ div#Projects:hover{
 div#Contacts:hover{
   background-color: #4169E1;
   opacity: 0.5;
+}
+ul{
+  list-style: none;
+}
+#About-desc{
+  font-family: 'Josefin Sans', sans-serif;
+  display: none;
+  font-size: 25px;
+  text-align: center;
+  background-color: #483D8B;
+  height: 60vh;
+  color: white;
+}
+#more-on-me{
+  text-align: justify;
+  font-family: 'Catamaran', sans-serif;
+  line-height: normal;
+  color: white;
+  display: none;
+  font-size: 20px;
+}
+#more-on-hobbies{
+  text-align: justify;
+  font-family: 'Catamaran', sans-serif;
+  line-height: normal;
+  color: white;
+  height: 40vh;
+  overflow: auto;
+  display: none;
+  font-size: 20px;
+}
+#more-on-skill-sets{
+  text-align: justify;
+  font-family: 'Catamaran', sans-serif;
+  line-height: normal;
+  color: white;
+  height: 40vh;
+  overflow: auto;
+  display: none;
+  font-size: 20px;
+}
+.col-md-4{
+  font-family: 'Leckerli One', cursive;
+  vertical-align: middle;
+  line-height: 45vh;
+  color: white;
+  background-color: #483D8B;
+}
+#me:hover{
+  background-color: #008080;
+  cursor: pointer;
+}
+#hobbies:hover{
+  background-color: #008080;
+  cursor: pointer;
+}
+#skill-sets:hover{
+  background-color: #008080;
+  cursor: pointer;
+}
+.pull-up{
+  background-color: #008080;
+  color: #FFFFFF;
+  border-style: none;
+  padding: 10px 30px 10px 30px;
+}
+li:before {
+  content: "\f00c"; /* FontAwesome Unicode */
+  font-family: FontAwesome;
+  display: inline-block;
+  margin-left: -1.3em; /* same as padding-left set on li */
+  width: 1.3em; /* same as padding-left set on li */
+}
+#about-return{
+  font-family: 'Leckerli One', cursive;
 }
