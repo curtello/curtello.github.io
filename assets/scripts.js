@@ -37,6 +37,6 @@ $(document).ready(function () {
     $("body").removeClass();
     $("body").addClass("homepage-skip");
     $("div#homepage").delay(5000).fadeIn(2000);
-    $("div#content").delay(8000).slideToggle(8000);
+    // $("div#content").delay(8000).slideDown(15000);
   });
 });
