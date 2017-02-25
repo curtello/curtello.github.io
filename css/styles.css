@@ -233,7 +233,54 @@
   height: 100vh;
   display: none;
 }
-/*#About{
-  width: 100%;
-
-}*/
+#About{
+  background-image: url("../images/about-me.gif");
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  width: 50%;
+  height: 50vh;
+  padding-top: 10%;
+  color: white;
+  background-repeat: no-repeat;
+  display: none;
+  cursor: pointer;
+}
+#Projects{
+  background-image: url("../images/projects.gif");
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  width: 50%;
+  height: 50vh;
+  padding-top: 10%;
+  color: white;
+  background-repeat: no-repeat;
+  display: none;
+  cursor: pointer;
+}
+#Contacts{
+  background-image: url("../images/contacts.gif");
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  width: 50%;
+  height: 50vh;
+  padding-top: 10%;
+  color: white;
+  background-repeat: no-repeat;
+  display: none;
+  cursor: pointer;
+}
+div#About:hover{
+  background-color: #4169E1;
+  opacity: 0.5;
+}
+div#Projects:hover{
+  background-color: #4169E1;
+  opacity: 0.5;
+}
+div#Contacts:hover{
+  background-color: #4169E1;
+  opacity: 0.5;
+}

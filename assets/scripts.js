@@ -37,12 +37,14 @@ $(document).ready(function () {
     $("body").removeClass();
     $("body").addClass("homepage-skip");
     $("div#homepage").delay(5000).fadeIn(2000);
-    // $("div#content").delay(8000).slideDown(15000);
   });
   $("button#open").click(function () {
     $("div#homepage").slideUp(2000);
     $("div#transition").delay(500).slideDown(2000);
     $("div#transition").delay(4500).slideUp(2000);
-    $("div#content").delay(8000).slideDown(8000);
+    $("div#content").delay(8000).slideDown(3000);
+    $("div#About").delay(11000).fadeIn(2000);
+    $("div#Projects").delay(14000).fadeIn(2000);
+    $("div#Contacts").delay(17000).fadeIn(2000);
   });
 });
