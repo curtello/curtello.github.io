@@ -46,13 +46,31 @@ $(document).ready(function () {
     $("div#About").delay(11000).fadeIn(2000);
     $("div#Projects").delay(12000).fadeIn(1000);
     $("div#Contacts").delay(13000).fadeIn(1000);
+    $("div#Ending").delay(14000).fadeIn(1000);
   });
   $("div#About").click(function () {
     $("div#About").slideUp(2000);
     $("div#Projects").slideUp(2000);
     $("div#Contacts").slideUp(2000);
+    $("div#Ending").slideUp(2000);
     $("div#About-desc").slideDown(2000);
     $("button#about-return").slideDown(2000);
+  });
+  $("div#Projects").click(function () {
+    $("div#About").slideUp(2000);
+    $("div#Projects").slideUp(2000);
+    $("div#Contacts").slideUp(2000);
+    $("div#Ending").slideUp(2000);
+    $("div#Projects-desc").slideDown(2000);
+    $("button#Projects-return").slideDown(2000);
+  });
+  $("div#Contacts").click(function () {
+    $("div#About").slideUp(2000);
+    $("div#Projects").slideUp(2000);
+    $("div#Contacts").slideUp(2000);
+    $("div#Ending").slideUp(2000);
+    $("div#Contacts-desc").slideDown(2000);
+    $("button#Contacts-return").slideDown(2000);
   });
   $("div#me").click(function () {
     $("div#me").slideUp(2000);
@@ -81,6 +99,20 @@ $(document).ready(function () {
   $("button#about-return").click(function () {
     $("button#about-return").slideUp(2000);
     $("div#About-desc").slideUp(2000);
+    $("div#About").slideDown(2000);
+    $("div#Projects").slideDown(2000);
+    $("div#Contacts").slideDown(2000);
+  });
+  $("button#Contacts-return").click(function () {
+    $("button#Contacts-return").slideUp(2000);
+    $("div#Contacts-desc").slideUp(2000);
+    $("div#About").slideDown(2000);
+    $("div#Projects").slideDown(2000);
+    $("div#Contacts").slideDown(2000);
+  });
+  $("button#Projects-return").click(function () {
+    $("button#Projects-return").slideUp(2000);
+    $("div#Projects-desc").slideUp(2000);
     $("div#About").slideDown(2000);
     $("div#Projects").slideDown(2000);
     $("div#Contacts").slideDown(2000);
