@@ -102,6 +102,7 @@ $(document).ready(function () {
     $("div#About").slideDown(2000);
     $("div#Projects").slideDown(2000);
     $("div#Contacts").slideDown(2000);
+    $("div#Ending").slideDown(2000);
   });
   $("button#Contacts-return").click(function () {
     $("button#Contacts-return").slideUp(2000);
@@ -109,6 +110,7 @@ $(document).ready(function () {
     $("div#About").slideDown(2000);
     $("div#Projects").slideDown(2000);
     $("div#Contacts").slideDown(2000);
+    $("div#Ending").slideDown(2000);
   });
   $("button#Projects-return").click(function () {
     $("button#Projects-return").slideUp(2000);
@@ -116,5 +118,6 @@ $(document).ready(function () {
     $("div#About").slideDown(2000);
     $("div#Projects").slideDown(2000);
     $("div#Contacts").slideDown(2000);
+    $("div#Ending").slideDown(2000);
   });
 });
