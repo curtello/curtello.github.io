@@ -1,0 +1,23 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "*This is my personal portfolio website*",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/curtello/curtello.github.io.git"
+  },
+  "author": "Kenneth Gitere",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/curtello/curtello.github.io/issues"
+  },
+  "homepage": "https://github.com/curtello/curtello.github.io#readme",
+  "dependencies": {
+    "express": "^4.15.3"
+  }
+}
