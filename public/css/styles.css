@@ -1,0 +1,16 @@
+body{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-family: 'Roboto', sans-serif;
+}
+#svg{
+  display: flex;
+  align-self: center;
+}
+#svg text{
+  font-size: 50px;
+}
+circle{
+  cursor: pointer;
+}
